@@ -1,0 +1,6 @@
+Required Skills:
+- Python, TensorFlow, Keras
+- CNN, LSTM, BERT (Hugging Face or Transformers)
+- Pandas, NumPy, Scikit-learn
+- Git, Jupyter, NetCDF, OpenCV
+- Project experience (drowsiness detection, stock prediction, climate modeling)

@@ -17,7 +17,7 @@ AI-Resume-Analyzer/
 ├── app/
 | ├── app.py
 ├── scripts/
-| ├── **init**.py
+| ├── __init__.py
 │ ├── extract_text.py # Resume file loader
 │ ├── pdf_to_keywords.py # Converts PDF to cleaned keyword .txt
 │ ├── job_description.py # Loads job_description.txt
@@ -127,7 +127,7 @@ netcdf
 drowsiness
 ...
 
-````
+```
 ---
 
 ## 🙋‍♂️ Author

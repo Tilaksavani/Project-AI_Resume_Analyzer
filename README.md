@@ -12,7 +12,7 @@ It helps job seekers improve their resumes and recruiters prioritize candidates 
 ---
 
 ## 📁 Project Structure
-
+```
 AI-Resume-Analyzer/
 ├── app/
 | ├── app.py
@@ -30,7 +30,7 @@ AI-Resume-Analyzer/
 ├── analyzer.py # ✅ Main analysis script
 ├── requirements.txt # Dependencies
 └── README.md
-
+```
 ---
 
 ## 🔧 How It Works

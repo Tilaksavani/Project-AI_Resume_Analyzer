@@ -54,52 +54,9 @@ AI-Resume-Analyzer/
 
 ### 1. 📦 Install Dependencies
 
-````bash
+```bash
 pip install -r requirements.txt## 💡 Use Cases
-
-- 🧑‍🎓 **Students** preparing for internship/job fairs
-- 🧠 **Candidates** checking resume alignment
-- 🧑‍💼 **Recruiters** shortlisting relevant profiles
-- 🎯 **Resume optimization** with measurable scores
-
----
-
-## 🧠 Features
-
-| Feature             | Description                                         |
-|---------------------|-----------------------------------------------------|
-| **BERT Score**      | Semantic similarity using sentence embeddings       |
-| **TF-IDF Score**    | Textual similarity based on frequency               |
-| **JD Coverage %**   | Word overlap between JD and resume                  |
-| **JD Accuracy %**   | Skill keyword match rate                            |
-| **Missing Keywords**| Clear output of what to add in resume              |
-| **Keyword Extraction** | Cleaned, stopword-removed skill tokens          |
-
----
-
-## 🧰 Tech Stack
-
-- Python
-- pdfplumber
-- scikit-learn
-- Sentence Transformers (BERT)
-- matplotlib *(optional for future visuals)*
-
----
-
-## ✅ Example Resume Keywords Extraction
-
-```txt
-python
-tensorflow
-keras
-cnn
-pandas
-netcdf
-drowsiness
-...
-
-````
+```
 
 ### 2. 📂 Add Files
 
@@ -126,12 +83,58 @@ Tilak-Resume-keywords.txt | 0.8652 | 0.9211 | 72.00% | 88.89%
 
 ---
 
+## 💡 Use Cases
+
+- 🧑‍🎓 **Students** preparing for internship/job fairs
+- 🧠 **Candidates** checking resume alignment
+- 🧑‍💼 **Recruiters** shortlisting relevant profiles
+- 🎯 **Resume optimization** with measurable scores
+
+---
+
+## 🧠 Features
+
+| Feature             | Description                                         |
+|---------------------|-----------------------------------------------------|
+| **BERT Score**      | Semantic similarity using sentence embeddings       |
+| **TF-IDF Score**    | Textual similarity based on frequency               |
+| **JD Coverage %**   | Word overlap between JD and resume                  |
+| **JD Accuracy %**   | Skill keyword match rate                            |
+| **Missing Keywords**| Clear output of what to add in resume               |
+| **Keyword Extraction** | Cleaned, stopword-removed skill tokens           |
+
+---
+
+## 🧰 Tech Stack
+
+- Python
+- pdfplumber
+- scikit-learn
+- Sentence Transformers (BERT)
+- matplotlib *(optional for future visuals)*
+
+---
+
+## ✅ Example Resume Keywords Extraction
+
+```txt
+python
+tensorflow
+keras
+cnn
+pandas
+netcdf
+drowsiness
+...
+
+````
+---
+
 ## 🙋‍♂️ Author
 
 **Tilak Savani**  
 Master’s in Computer Science, University of Georgia  
 Domain: Artificial Intelligence & Machine Learning  
-[LinkedIn →](https://linkedin.com/in/tilak-savani)
 
 ---
 

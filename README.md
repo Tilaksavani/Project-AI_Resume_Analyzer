@@ -69,6 +69,11 @@ pip install -r requirements.txt## 💡 Use Cases
 python analyzer.py
 ```
 
+### 4. ▶️ Streamlit Run
+```base
+streamlit run app.py
+```
+
 ---
 
 ## 📊 Sample Output

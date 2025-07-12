@@ -142,8 +142,6 @@ Domain: Artificial Intelligence & Machine Learning
 
 - [Hugging Face Transformers](https://huggingface.co/)
 - [Scikit-learn Team](https://scikit-learn.org/)
-- [UCI ML Datasets](https://archive.ics.uci.edu/ml/index.php)
-- [Streamlit Community](https://streamlit.io/)
 
 ---
 

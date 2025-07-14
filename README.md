@@ -12,6 +12,7 @@ It helps job seekers improve their resumes and recruiters prioritize candidates 
 ---
 
 ## 📁 Project Structure
+
 ```
 AI-Resume-Analyzer/
 ├── streamlit_app/
@@ -31,6 +32,7 @@ AI-Resume-Analyzer/
 ├── requirements.txt # Dependencies
 └── README.md
 ```
+
 ---
 
 ## 🔧 How It Works
@@ -70,6 +72,7 @@ python analyzer.py
 ```
 
 ### 4. ▶️ Streamlit Run
+
 ```base
 streamlit run app.py
 ```
@@ -83,8 +86,9 @@ streamlit run app.py
 ## Filename | TF-IDF | BERT | Word Match % | JD Accuracy %
 
 Tilak-Resume-keywords.txt | 0.8652 | 0.9211 | 72.00% | 88.89%
-✅ Matched JD Keywords (16): ['python', 'tensorflow', 'cnn', 'keras', ...]
-❌ Missing JD Keywords (2): ['netcdf', 'huggingface']
+
+✅ **Matched JD Keywords (16):** ['python', 'tensorflow', 'cnn', 'keras', ...]
+❌ **Missing JD Keywords (2):** ['netcdf', 'huggingface']
 
 ---
 
@@ -99,14 +103,14 @@ Tilak-Resume-keywords.txt | 0.8652 | 0.9211 | 72.00% | 88.89%
 
 ## 🧠 Features
 
-| Feature             | Description                                         |
-|---------------------|-----------------------------------------------------|
-| **BERT Score**      | Semantic similarity using sentence embeddings       |
-| **TF-IDF Score**    | Textual similarity based on frequency               |
-| **JD Coverage %**   | Word overlap between JD and resume                  |
-| **JD Accuracy %**   | Skill keyword match rate                            |
-| **Missing Keywords**| Clear output of what to add in resume               |
-| **Keyword Extraction** | Cleaned, stopword-removed skill tokens           |
+| Feature                | Description                                   |
+| ---------------------- | --------------------------------------------- |
+| **BERT Score**         | Semantic similarity using sentence embeddings |
+| **TF-IDF Score**       | Textual similarity based on frequency         |
+| **JD Coverage %**      | Word overlap between JD and resume            |
+| **JD Accuracy %**      | Skill keyword match rate                      |
+| **Missing Keywords**   | Clear output of what to add in resume         |
+| **Keyword Extraction** | Cleaned, stopword-removed skill tokens        |
 
 ---
 
@@ -116,7 +120,7 @@ Tilak-Resume-keywords.txt | 0.8652 | 0.9211 | 72.00% | 88.89%
 - pdfplumber
 - scikit-learn
 - Sentence Transformers (BERT)
-- matplotlib *(optional for future visuals)*
+- matplotlib _(optional for future visuals)_
 
 ---
 
@@ -132,14 +136,15 @@ netcdf
 drowsiness
 ...
 
-````
+```
+
 ---
 
 ## 🙋‍♂️ Author
 
 **Tilak Savani**  
 Master’s in Computer Science, University of Georgia  
-Domain: Artificial Intelligence & Machine Learning  
+Domain: Artificial Intelligence & Machine Learning
 
 ---
 

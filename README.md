@@ -14,7 +14,7 @@ It helps job seekers improve their resumes and recruiters prioritize candidates 
 ## 📁 Project Structure
 ```
 AI-Resume-Analyzer/
-├── app/
+├── streamlit_app/
 | ├── app.py
 ├── scripts/
 | ├── __init__.py
@@ -132,7 +132,7 @@ netcdf
 drowsiness
 ...
 
-```
+````
 ---
 
 ## 🙋‍♂️ Author

@@ -87,8 +87,11 @@ streamlit run app.py
 
 Tilak-Resume-keywords.txt | 0.8652 | 0.9211 | 72.00% | 88.89%
 
-✅ **Matched JD Keywords (16):** ['python', 'tensorflow', 'cnn', 'keras', ...]
-❌ **Missing JD Keywords (2):** ['netcdf', 'huggingface']
+✅ **Matched JD Keywords (16):**  
+`['python', 'tensorflow', 'cnn', 'keras', ...]`
+
+❌ **Missing JD Keywords (2):**  
+`['netcdf', 'huggingface']`
 
 ---
 

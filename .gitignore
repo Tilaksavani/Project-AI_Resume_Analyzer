@@ -14,7 +14,7 @@ Thumbs.db
 .vscode/
 
 # ❌ Virtual environments
-env/
+resume_env/
 venv/
 ENV/
 .venv/

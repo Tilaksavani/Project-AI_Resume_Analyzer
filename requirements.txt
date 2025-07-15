@@ -8,4 +8,4 @@ transformers
 sentence-transformers
 streamlit
 pdfplumber
-PyPDF
+PyPDF2

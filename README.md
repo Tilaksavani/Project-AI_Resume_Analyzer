@@ -58,8 +58,8 @@ AI-Resume-Analyzer/
 
 ```bash
 python -m venv resume_env
-source resume_env/bin/activate  # For Mac/Linux:
 resume_env\Scripts\activate     # For Windows:
+source resume_env/bin/activate  # For Mac/Linux:
 ```
 
 ### 2. 📦 Install Dependencies

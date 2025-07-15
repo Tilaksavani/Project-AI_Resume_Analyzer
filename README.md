@@ -54,27 +54,35 @@ AI-Resume-Analyzer/
 
 ## 🚀 Run the Analyzer
 
-### 1. 📦 Install Dependencies
+### 1. 🛠️ Create Virtual Environment and Activate the Environment (Recommended)
+
+```bash
+python -m venv resume_env
+source resume_env/bin/activate  # For Mac/Linux:
+resume_env\Scripts\activate     # For Windows:
+```
+
+### 2. 📦 Install Dependencies
 
 ```bash
 pip install -r requirements.txt## 💡 Use Cases
 ```
 
-### 2. 📂 Add Files
+### 3. 📂 Add Files
 
 - Put all your resume PDFs into the resumes/ folder.
 - Write your job description in job_description.txt.
 
-### 3. ▶️ Run the script
+### 4. ▶️ Run the script
 
 ```bash
 python analyzer.py
 ```
 
-### 4. ▶️ Streamlit Run
+### 5. ▶️ Streamlit Run
 
 ```base
-streamlit run app.py
+streamlit run .\streamlit_app\app.py
 ```
 
 ---
